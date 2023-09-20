@@ -1,0 +1,107 @@
+body{
+    font-family: Garamond;
+    width: 95%;
+    margin: auto;
+    background-color: black;
+    color: #fff;
+}
+
+.titlehead{
+    font-family: Brush Script MT;
+    font-size: 40px;
+    color: green;
+}
+
+.hrline{
+    border: solid 2px green;
+}
+
+.menu ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    height: 35px;
+    line-height: 35px;
+    color: #fff;
+    font-family: sans-serif;
+}
+
+.menu ul li{
+    display: inline;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    padding: 15px;
+    color: #fff;
+}
+
+.menu ul li a:hover{
+    background-color: #111;
+}
+
+.active{
+    background-color: green;
+}
+
+.Course{
+    height: 500px;
+    background-color: black;
+    width: 95%;
+    color: #fff;
+}
+
+.border{
+    border: solid 5px green;
+    height: 325px;
+    width: 18%;
+    padding: 0 2pc;
+    float: left;
+    margin-right: 25px
+}
+
+.bordernomargin{
+    border: solid 5px green;
+    height: 325px;
+    width: 18%;
+    padding: 0 2pc;
+    float: left;
+}
+
+.border a{
+    text-decoration: none;
+    color: #fff ;
+}
+
+.bordernomargin a{
+    text-decoration: none;
+    color: #fff ;
+}
+
+.photo{
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+.photojv{
+    width: 170px;
+    height: 100px;
+    display: block;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.fontbody{
+    font-family: sans-serif;
+}
+
+
+
