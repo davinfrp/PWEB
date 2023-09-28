@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta name="viewport" content="width =device-width, initial-scale=1.0">
+        <title>Wedding Invitation</title>
+        <link rel="stylesheet" href="style.css"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Croissant+One&family=Dancing+Script:wght@500&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <!-----------------Home---------------------->
+        <div class="home">
+            <nav>
+                <div class="Navbar">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#aboutus">About us</a></li>
+                        <li><a href="#location">Time and Location</a></li>
+                        <li><a href="#rsvp">RSVP</a></li>
+                    </ul>
+                </div>
+            </nav>
+
+            <div class="home-text">
+                <p>The Wedding of</p>
+                <p style="font-size: 70px;"> Bob </p>
+                <p style="font-size: 70px;"> and </p>
+                <p style="font-size: 70px;"> Danielle</p>
+                <p style="font-size: 30px;">Sunday, 29 February 2024</p>
+            </div>
+
+            <div class="audio">
+                <audio controls autoplay> 
+                    <source src="Kiss of Life.mp3" type="audio/mpeg">
+                </audio>
+            </div>
+        </div>
+
+        <!--------------------About Us------------------------->
+        <div class="aboutus" id="aboutus">
+
+            <p style="font-size: 40px; color: goldenrod;">About Us</p>
+            <div class="row">
+                <div class="photo">
+                    <img src="wedding2.jpg">
+                </div>
+                <div class="bio">
+                    <p>Bob Marley</p>
+                    <p>DOB : Bontang, 8 May 2000</p>
+                    <p>Son of Alexander Marley and Vivienne Marley</p>
+                    <p><i>&</i></p>
+                    <p>Danielle Marsh</p>
+                    <p>DOB : Bogor, 14 April 2001</p>
+                    <p>Daughter of Andrew Marsh and Sandy Marsh</p>
+                </div>
+            </div>   
+        </div>
+
+        <!----------------------Location----------------------------->
+        <div class="location" id="location">
+            <p class="cerloc">Ceremony Location</p>
+            <img src="wedding3.jpg">
+            <p style="font-size: 25px;">The Ritz-Carlton, Bali</p>
+            <p>Jl. Raya Nusa Dua Selatan Jl. Nusa Dua, Lot III, Sawangan, Kec. Kuta Sel., Bali, 80361</p>
+            <p><i>Sunday, 29 February 2024</i></p>
+            <a href="https://www.google.com/maps/dir//The+Ritz-Carlton,+Bali,+Jl.+Raya+Nusa+Dua+Selatan+Jl.+Nusa+Dua,+Lot+III,+Sawangan,+South+Kuta,+Bali,+80361/@-8.8306619,115.1329293,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x2dd25cb9200040ad:0xb2fc943d211cb8bf!2m2!1d115.2153312!2d-8.8306709?hl=en-GB&entry=ttu" class="dir-btn">Directions</a>
+        </div>
+        
+
+        <!---------------------------RSVP--------------------------------->
+        <div class="rsvp" id="rsvp">
+            <p id="resvap">RSVP</p>
+
+            <div class="form">
+                <label for="name">Nama Lengkap</label>
+                <input type="text" id="name" name="Name" placeholder="....">
+                <label for="Ucdo">Ucapan & Doa</label>
+                <textarea id="ucdo" name="ucapan" rows="3" placeholder="...."></textarea>
+                <label for="hadir">Apakah anda dapat hadir?</label>
+                <select name="hadir">
+                    <option value="hadir">Hadir</option>
+                    <option value="TidakHadir">Tidak Hadir</option>
+                </select>
+                <label for="jumlah">Jumlah orang yang akan hadir?</label>
+                <input type="text" id="jumlah" name="Jumlah" placeholder="....">
+                <input type="submit" value="submit" id="sub">
+            </div>
+        </div>
+
+    </body>
+
+    <footer>
+        Davin Fisabilillah Reynard Putra@2023
+    </footer>
+
+
+</html>
